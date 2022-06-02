@@ -12,8 +12,8 @@ const core = new BurnerCore({
   signers: [new InjectedSigner(), new LocalSigner()],
   gateways: [
     new InjectedGateway(),
-    new InfuraGateway(process.env.REACT_APP_INFURA_KEY),
-    new XDaiGateway(),
+    new InfuraGateway(process.env.REACT_APP_INFURA_KEY=https://optimism-mainnet.infura.io/v3/dafe7978cb1145039d88ae648aa3278a),
+    new XDaiGateway(https://opt-mainnet.g.alchemy.com/v2/L-FO35KamCp-0H97HmpI7GKY8FT6Qvpr),
   ],
   assets: [xdai, dai, eth],
 });
